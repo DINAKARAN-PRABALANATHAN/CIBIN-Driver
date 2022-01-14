@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CIBIN Drivers</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_bin_navigation">Map</string>
+</resources>

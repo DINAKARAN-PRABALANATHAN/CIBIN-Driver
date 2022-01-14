@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="290dp"
+    app:cardCornerRadius="25sp"
+    android:gravity="center"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 1 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_1"
+                            android:layout_width="69dp"
+                            android:layout_height="wrap_content"
+                            android:text="111"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 3 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_3"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="333"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 5 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_5"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="555"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 7 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_7"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="777"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/work_update_bin_9"
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 9 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_9"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="999"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin11:"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_11"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="111"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 2 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_2"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="222"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 4 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_4"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="444"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 6 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_6"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="666"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin 8 :"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_8"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="888"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin10:"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_10"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="1010"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="98dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Bin12:"
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/work_update_bins_12"
+                            android:layout_width="69dp"
+                            android:layout_height="25sp"
+                            android:text="1212"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/request_list_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

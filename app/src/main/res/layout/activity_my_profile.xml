@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_1"
+    tools:context=".MyProfile">
+
+
+
+    <TextView
+        android:id="@+id/my_profile_id"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:background="@drawable/input_field"
+        android:gravity="center|left"
+        android:text="Driver ID"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/my_profile_profile"
+        app:layout_constraintEnd_toStartOf="@+id/my_profile_profile"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/my_profile_back_botton"
+        app:srcCompat="@drawable/back"
+        app:maxImageSize="35dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:clickable="true"
+        android:backgroundTint="#63E668"
+        android:layout_marginStart="10dp"/>
+
+    <ImageView
+        android:layout_height="78dp"
+        android:layout_width="94dp"
+        app:layout_constraintVertical_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/account"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/textView6"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="My Profile"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_height="98dp"
+        android:layout_width="90dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/my_profile_profile"
+        android:src="@drawable/profile_user"/>
+
+    <TextView
+        android:background="@drawable/input_field"
+        android:layout_height="45dp"
+        android:layout_width="280dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:ems="10"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/my_profile_user_name"
+        android:text="User name"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:background="@drawable/input_field"
+        android:layout_height="45dp"
+        android:layout_width="280dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_user_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/my_profile_email_id"
+        android:text="Email Address"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:background="@drawable/input_field"
+        android:layout_height="45dp"
+        android:layout_width="280dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_mobile_number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+        android:hint="Current Password"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/my_profile_current_password"/>
+    <EditText
+        android:background="@drawable/input_field"
+        android:layout_height="45dp"
+        android:layout_width="280dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_current_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+        android:hint="New Password"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/my_profile_new_password"/>
+
+    <TextView
+        android:background="@drawable/input_field"
+        android:layout_height="45dp"
+        android:layout_width="280dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_email_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/my_profile_mobile_number"
+        android:text="Mobile number"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:background="@drawable/input_field"
+        android:layout_height="45dp"
+        android:layout_width="280dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_new_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+        android:hint="Conform Password"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/my_profile_conform_password"/>
+
+    <Button
+        android:background="@drawable/button"
+        android:layout_height="40dp"
+        android:layout_width="100dp"
+        app:layout_constraintVertical_bias="0.033"
+        app:layout_constraintTop_toBottomOf="@+id/my_profile_new_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/my_profile_update_password"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:text="Change"
+        android:textAllCaps="false"
+        android:padding="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
